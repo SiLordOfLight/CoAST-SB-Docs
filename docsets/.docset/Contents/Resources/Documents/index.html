@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (77% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBAppDataModel.html">CSBAppDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">– StateFlags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC0eF5ErrorO">– DataModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBCodableImage.html">CSBCodableImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBErrorPopup.html">CSBErrorPopup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBFormValidator.html">CSBFormValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBFormValidator.html#/s:8CoAST_SB16CSBFormValidatorC11WarningModeO">– WarningMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBGPSHelper.html">CSBGPSHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBStorageHelper.html">CSBStorageHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CSBStorageHelper/Directory.html">– Directory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DataEntry1TableViewController.html">DataEntry1TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DataEntry2TableViewController.html">DataEntry2TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DeveloperViewController.html">DeveloperViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PictureSelectionViewController.html">PictureSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/WelcomeViewController.html">WelcomeViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/CSBLabelingValidatorDelegate.html">CSBLabelingValidatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CSBUnwindableViewController.html">CSBUnwindableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/CSBDataPoint.html">CSBDataPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CSBLocationDataModel.html">CSBLocationDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CSBMetadataModel.html">CSBMetadataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CSBValidationRules.html">CSBValidationRules</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='coast-sb-ios' class='heading'>CoAST-SB-iOS</h1>
+
+<p><strong>Team Members</strong></p>
+
+<ul>
+<li>Mobile Application Developer Lead: <strong>Jake Trimble</strong></li>
+<li>Mobile Application Developer: <strong>Caleb Cassin</strong></li>
+<li>User Experience Designer Lead: <strong>Ella Onishuk</strong></li>
+<li>User Experience Designer: <strong>Kylan O&#39;Connor</strong></li>
+<li>Data Analysis/Quality Assurance Officer: <strong>Zadyn Kear</strong></li>
+</ul>
+<h1 id='data-model' class='heading'>Data Model</h1>
+
+<ul>
+<li>An instance of the <code><a href="Classes/CSBAppDataModel.html">CSBAppDataModel</a></code> class, saved in the current instance of <code><a href="Classes/AppDelegate.html">AppDelegate</a></code></li>
+<li>Can be accessed from any point within the app by calling <code><a href="Classes/AppDelegate.html#/s:8CoAST_SB11AppDelegateC17dataModelInstanceAA010CSBAppDataG0CvpZ">AppDelegate.dataModelInstance</a></code></li>
+<li>Contains properties that save various portions of the data:
+
+<ul>
+<li><code>metadata</code> : An instance of the <code><a href="Structs/CSBMetadataModel.html">CSBMetadataModel</a></code> struct containing the various metadata properties of this survey</li>
+<li><code>dataPoints</code> : An array of <code><a href="Structs/CSBDataPoint.html">CSBDataPoint</a></code> structs, containing properties of a data entry</li>
+</ul></li>
+<li>Can be saved to/retrieved from a permanent storage file called <q>PersistentCopy.json</q> using the <code>save()</code> and <code>retrieve()</code> methods</li>
+<li>Contains bitmask flags to represent various data states important to how/if views load data
+
+<ul>
+<li>The verified flag should be set to true after data verification, false if any more changes are made, and checked before sending data</li>
+</ul></li>
+</ul>
+<h1 id='welcome-amp-dev-screeen' class='heading'>Welcome &amp; Dev Screeen</h1>
+
+<ul>
+<li>When app first opens two UIButton values should print, one for each button on the screen</li>
+<li>Press the Data Entry One button and confirm <q>Data Button Pressed</q> appears in console</li>
+<li>Press the Info button to go to Dev screen and confirm <q>Developer Button Pressed</q> is in console</li>
+<li>There should also be a UIButton in the console for the back button</li>
+<li>Finally press the back button to go to the Welcome screen and confirm <q>Back Button Pressed</q> is in console</li>
+</ul>
+<h1 id='data-entry-1-screen' class='heading'>Data Entry 1 Screen</h1>
+
+<ul>
+<li>No objects should be displayed by this screen, as it should be unnavigatable at this point</li>
+<li>Displayed as a Table View, it contains 1 field per cell (Except the last cell which also contains a reference selector)</li>
+<li>The next button is initially disabled</li>
+<li>Everytime a form is modified, a form validation method runs on the page to determine if the data was inputted properly
+
+<ul>
+<li>If the validation fails, the <code>labelFailed(for:[String:String])</code> method is called with the forms that are incorrect and the reason
+
+<ul>
+<li>[ ] <strong>THIS METHOD MUST BE IMPLEMENTED BY THE UI TEAM TO FUNCTION</strong></li>
+</ul></li>
+<li>If the validation succeeds on all forms, the next button is enabled</li>
+<li>If the validation fails and the next button was already enabled, it is disabled</li>
+</ul></li>
+<li>When the next button is tapped, all entered data is saved to the <code>AppDelegate.dataModelInstance.metadata</code> struct, and the data model is saved to file</li>
+<li>If the data model already contains metadata, loads data to view</li>
+</ul>
+<h1 id='data-entry-2-screen' class='heading'>Data Entry 2 Screen</h1>
+
+<ul>
+<li>No objects should be displayed by this screen, as it should be unnavigatable at this point</li>
+<li>Displayed as a Table View, it contains 1 field per cell</li>
+<li>The next button is initially disabled</li>
+<li>Everytime a form is modified, a form validation method runs on the page to determine if the data was inputted properly</li>
+<li>If the validation fails, the <code>labelFailed(for:[String:String])</code> method is called with the forms that are incorrect and the reason</li>
+<li>[ ] <strong>THIS METHOD MUST BE IMPLEMENTED BY THE UI TEAM TO FUNCTION</strong></li>
+<li>If the validation succeeds on all forms, the next button is enabled</li>
+<li>If the validation fails and the next button was already enabled, it is disabled</li>
+<li>Automatically jumps to the last data point saved on load, if any</li>
+<li>Loads specified entry from data model during navigation, if it exists</li>
+<li><strong>This setup is currently inaccurate. There will be 4 navigation buttons:</strong>
+
+<ul>
+<li>[ ] <strong><q>Add</q> -&gt; Saves the current data point and clears the fields to add another (Bottom of page) [Called next if the last button pressed was <q>Previous</q>]</strong></li>
+<li>[ ] <strong><q>Done</q> -&gt; Saves the current data point and moves to data verification page (Bottom of Page)</strong></li>
+<li>[ ] <strong><q>Previous</q> -&gt; Saves the current data point and returns to the previous one (Bottom of Page)</strong></li>
+<li>[ ] <strong><q>< Metadata</q> -&gt; Saves the current data point and returns to the metadata entry page</strong></li>
+</ul></li>
+<li>[ ] <strong>The buttons that save data will append a <code><a href="Structs/CSBDataPoint.html">CSBDataPoint</a></code> object to <code>AppDelegate.dataModelInstance.dataPoints</code></strong>
+
+<ul>
+<li>[ ] <strong>This process should also save the data model to file</strong></li>
+</ul></li>
+</ul>
+<h1 id='photo-selector' class='heading'>Photo Selector</h1>
+
+<ul>
+<li>This view controller is presented by any of the data entry pages whenever a photo needs to be selected/taken</li>
+<li>Any VC that uses the selector must conform to <code><a href="Protocols/CSBUnwindableViewController.html">CSBUnwindableViewController</a></code> (See documentation for requirements)</li>
+<li>To instantiate the VC, call <code>let vc = UIStoryboard(name: &quot;PictureSelector&quot;, bundle: nil).instantiateViewController(withIdentifier: &quot;PictureSelector&quot;)</code></li>
+<li>If selecting multiple images, set the <code>stack</code> property to an array of the names of the images
+
+<ul>
+<li>To start at an image other than the first, also set the <code>stackIndex</code> property</li>
+</ul></li>
+<li>If selecting a single image, set the <code>imageTitle</code> property to the name of the image</li>
+</ul>
+<h1 id='issue-13' class='heading'>Issue #13</h1>
+
+<ul>
+<li>When app is started user&rsquo;s coordinates and nearest beach coordinates will display in console</li>
+<li>Beaches.plist contains a dictionary of beaches (also dictionaries)</li>
+<li>Beaches have their name as the key and 2 number values of Latitude and Longitude, keyed accoringly</li>
+</ul>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-04-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

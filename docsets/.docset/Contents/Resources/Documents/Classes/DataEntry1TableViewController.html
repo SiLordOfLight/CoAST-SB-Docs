@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DataEntry1TableViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/DataEntry1TableViewController" class="dashAnchor"></a>
+    <a title="DataEntry1TableViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (77% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DataEntry1TableViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html">CSBAppDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">– StateFlags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC0eF5ErrorO">– DataModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBCodableImage.html">CSBCodableImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBErrorPopup.html">CSBErrorPopup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBFormValidator.html">CSBFormValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBFormValidator.html#/s:8CoAST_SB16CSBFormValidatorC11WarningModeO">– WarningMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBGPSHelper.html">CSBGPSHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBStorageHelper.html">CSBStorageHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBStorageHelper/Directory.html">– Directory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataEntry1TableViewController.html">DataEntry1TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataEntry2TableViewController.html">DataEntry2TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeveloperViewController.html">DeveloperViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PictureSelectionViewController.html">PictureSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WelcomeViewController.html">WelcomeViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CSBLabelingValidatorDelegate.html">CSBLabelingValidatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CSBUnwindableViewController.html">CSBUnwindableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CSBDataPoint.html">CSBDataPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBLocationDataModel.html">CSBLocationDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBMetadataModel.html">CSBMetadataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBValidationRules.html">CSBValidationRules</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DataEntry1TableViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">DataEntry1TableViewController</span> <span class="p">:</span> <span class="kt">UITableViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/CSBLabelingValidatorDelegate.html">CSBLabelingValidatorDelegate</a></span><span class="p">,</span> <span class="kt">UITextFieldDelegate</span><span class="p">,</span> <span class="kt">UIPickerViewDelegate</span><span class="p">,</span> <span class="kt">UIPickerViewDataSource</span></code></pre>
+
+                </div>
+              </div>
+            <p>The view that begins the survey process and allows entry of most of the survey metadata</p>
+<div class="aside aside-author">
+    <p class="aside-title">Author</p>
+    Jake Trimble
+
+</div>
+<div class="aside aside-copyright">
+    <p class="aside-title">Copyright</p>
+    © 2019 Hello World. All rights reserved.
+
+</div>
+<div class="aside aside-date">
+    <p class="aside-title">Date</p>
+    Created 4/7/19
+
+</div>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <ul>
+<li>This page is the second page in the <q>Survey</q> branch of the navigation tree</li>
+<li>This page provides backward navigation to the <q>Welcome View Page</q></li>
+<li>This pages is accessed by pressing the <q>Start Survey</q> button on the <q>Welcome View Page</q></li>
+</ul>
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC10sitePickerSo08UIPickerG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sitePicker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC10sitePickerSo08UIPickerG0CSgvp">sitePicker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to select beach site name; Shows upon cell selection
+{<em>Row #1</em>}</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    May draw from online database of sites
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">sitePicker</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)siteLabel"></a>
+                    <a name="//apple_ref/swift/Property/siteLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)siteLabel">siteLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the selected site name, always shows in {<em>Row #1</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">siteLabel</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)teamMembersField"></a>
+                    <a name="//apple_ref/swift/Property/teamMembersField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)teamMembersField">teamMembersField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Input comma-separated list of team members {<em>Row #2</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">teamMembersField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)dataCollectorField"></a>
+                    <a name="//apple_ref/swift/Property/dataCollectorField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)dataCollectorField">dataCollectorField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Input name of data collector (The person inputting this data) {<em>Row #3</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">dataCollectorField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC20collectionDatePickerSo06UIDateK0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/collectionDatePicker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC20collectionDatePickerSo06UIDateK0CSgvp">collectionDatePicker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Select date of data entry; Shows on cell selection (Should auto fill) {<em>Row #4</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">collectionDatePicker</span><span class="p">:</span> <span class="kt">UIDatePicker</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)dateLabel"></a>
+                    <a name="//apple_ref/swift/Property/dateLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)dateLabel">dateLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shows selected collection date; Always shows in {<em>Row #4</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">dateLabel</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC15startTimePickerSo06UIDateK0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/startTimePicker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC15startTimePickerSo06UIDateK0CSgvp">startTimePicker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Select start time of data entry; Shows on cell selection (Should auto fill) {<em>Row #5</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">startTimePicker</span><span class="p">:</span> <span class="kt">UIDatePicker</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)timeLabel"></a>
+                    <a name="//apple_ref/swift/Property/timeLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)timeLabel">timeLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shows selected start time; Always shows in {<em>Row #5</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">timeLabel</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC16visibilityPickerSo08UIPickerG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/visibilityPicker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC16visibilityPickerSo08UIPickerG0CSgvp">visibilityPicker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Select horizon visibility; Shows on cell selection (One of poor, fair, good) {<em>Row #6</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">visibilityPicker</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)visibilityLabel"></a>
+                    <a name="//apple_ref/swift/Property/visibilityLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)visibilityLabel">visibilityLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shows selected visibility; Always shows in {<em>Row #6</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">visibilityLabel</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)markerElevationField"></a>
+                    <a name="//apple_ref/swift/Property/markerElevationField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)markerElevationField">markerElevationField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Input elevation of site marker (Numeric value 0 - 300) (In cm) {<em>Row #7</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">markerElevationField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)orientationField"></a>
+                    <a name="//apple_ref/swift/Property/orientationField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)orientationField">orientationField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Input orientation of measurement path (Numeric value 0-359) (In º) {<em>Row #8</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">orientationField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)orientationReferencePicker"></a>
+                    <a name="//apple_ref/swift/Property/orientationReferencePicker" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)orientationReferencePicker">orientationReferencePicker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Select reference of orientation line (Magnetic or True North) {<em>Row #8</em>}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">orientationReferencePicker</span><span class="p">:</span> <span class="kt">UISegmentedControl</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)nextButton"></a>
+                    <a name="//apple_ref/swift/Property/nextButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)nextButton">nextButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Continues to next data entry page; May be in nav bar; Only enabled if all forms correct</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">nextButton</span><span class="p">:</span> <span class="kt">UIButton</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)cancelButton"></a>
+                    <a name="//apple_ref/swift/Property/cancelButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(py)cancelButton">cancelButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns to the Welcome Screen w/o saving data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">cancelButton</span><span class="p">:</span> <span class="kt">UIButton</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC9siteNamesSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/siteNames" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC9siteNamesSaySSGvp">siteNames</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The site names of beaches that appear in the picker for row #1. May be downloaded from an online database</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">siteNames</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC12visibilitiesSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/visibilities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC12visibilitiesSaySSGvp">visibilities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The options for visibility selection</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">visibilities</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC17compassReferencesSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/compassReferences" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC17compassReferencesSaySSGvp">compassReferences</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The options for orientation references</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">compassReferences</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC9validatorAA16CSBFormValidatorCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/validator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC9validatorAA16CSBFormValidatorCSgvp">validator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Helper to validate fields and set faulty states</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">validator</span><span class="p">:</span> <span class="kt"><a href="../Classes/CSBFormValidator.html">CSBFormValidator</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs setup on views and other page preparation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)pickerView:didSelectRow:inComponent:"></a>
+                    <a name="//apple_ref/swift/Method/pickerView(_:didSelectRow:inComponent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)pickerView:didSelectRow:inComponent:">pickerView(_:didSelectRow:inComponent:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called on selection of an element in a picker, sets value of associated label</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">didSelectRow</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">inComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)didSelectDate:"></a>
+                    <a name="//apple_ref/swift/Method/didSelectDate(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)didSelectDate:">didSelectDate(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called on selection of a date; sets value of date label and validates forms</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">didSelectDate</span><span class="p">(</span><span class="n">_</span> <span class="nv">picker</span><span class="p">:</span> <span class="kt">UIDatePicker</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)didSelectTime:"></a>
+                    <a name="//apple_ref/swift/Method/didSelectTime(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)didSelectTime:">didSelectTime(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called on selection of a time; sets value of time label and validates forms</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">didSelectTime</span><span class="p">(</span><span class="n">_</span> <span class="nv">picker</span><span class="p">:</span> <span class="kt">UIDatePicker</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)textFieldShouldReturn:"></a>
+                    <a name="//apple_ref/swift/Method/textFieldShouldReturn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)textFieldShouldReturn:">textFieldShouldReturn(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Escapes keyboard and validates forms after finishing editing a text field</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textFieldShouldReturn</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textField</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The field that was being edited</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)returnPickerField:"></a>
+                    <a name="//apple_ref/swift/Method/returnPickerField(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)returnPickerField:">returnPickerField(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Responds to tapping the main view while a picker keyboard is shown; dismisses picker view and validates forms</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">returnPickerField</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sender</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The view that was tapped</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)saveDataAndContinue:"></a>
+                    <a name="//apple_ref/swift/Method/saveDataAndContinue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)DataEntry1TableViewController(im)saveDataAndContinue:">saveDataAndContinue(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when the &lsquo;next&rsquo; button is tapped</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Because the &lsquo;next&rsquo; button is enabled by validation, this method will only be called if all fields are properly filled out
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">saveDataAndContinue</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sender</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The view that called this function</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB29DataEntry1TableViewControllerC14labelFailiuresyySDyS2SGF"></a>
+                    <a name="//apple_ref/swift/Method/labelFailiures(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB29DataEntry1TableViewControllerC14labelFailiuresyySDyS2SGF">labelFailiures(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Marks invalid fields with an error message</p>
+<div class="aside aside-important">
+    <p class="aside-title">Important</p>
+    TO BE IMPLEMENTED
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">labelFailiures</span><span class="p">(</span><span class="n">_</span> <span class="nv">from</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>from</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary of forms keys and their error messages</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-04-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

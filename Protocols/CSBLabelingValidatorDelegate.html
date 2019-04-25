@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSBLabelingValidatorDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/CSBLabelingValidatorDelegate" class="dashAnchor"></a>
+    <a title="CSBLabelingValidatorDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (77% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CSBLabelingValidatorDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html">CSBAppDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">– StateFlags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC0eF5ErrorO">– DataModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBCodableImage.html">CSBCodableImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBErrorPopup.html">CSBErrorPopup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBFormValidator.html">CSBFormValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBFormValidator.html#/s:8CoAST_SB16CSBFormValidatorC11WarningModeO">– WarningMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBGPSHelper.html">CSBGPSHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBStorageHelper.html">CSBStorageHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBStorageHelper/Directory.html">– Directory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataEntry1TableViewController.html">DataEntry1TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataEntry2TableViewController.html">DataEntry2TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeveloperViewController.html">DeveloperViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PictureSelectionViewController.html">PictureSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WelcomeViewController.html">WelcomeViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CSBLabelingValidatorDelegate.html">CSBLabelingValidatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CSBUnwindableViewController.html">CSBUnwindableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CSBDataPoint.html">CSBDataPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBLocationDataModel.html">CSBLocationDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBMetadataModel.html">CSBMetadataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBValidationRules.html">CSBValidationRules</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CSBLabelingValidatorDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CSBLabelingValidatorDelegate</span> <span class="p">:</span> <span class="kt">CSBValidatorDelegate</span></code></pre>
+
+                </div>
+              </div>
+            <p>The primary delegate for a Form Validator, given the validator labels invalid fields</p>
+<div class="aside aside-author">
+    <p class="aside-title">Author</p>
+    Jake Trimble
+
+</div>
+<div class="aside aside-copyright">
+    <p class="aside-title">Copyright</p>
+    © 2019 Hello World. All rights reserved.
+
+</div>
+<div class="aside aside-date">
+    <p class="aside-title">Date</p>
+    Created 4/9/19
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB28CSBLabelingValidatorDelegateP14labelFailiuresyySDyS2SGF"></a>
+                    <a name="//apple_ref/swift/Method/labelFailiures(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB28CSBLabelingValidatorDelegateP14labelFailiuresyySDyS2SGF">labelFailiures(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Implemented by the delegate to label fields as invalid</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">labelFailiures</span><span class="p">(</span><span class="n">_</span> <span class="nv">from</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>from</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The invalid fields and their error messages</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-04-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

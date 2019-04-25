@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSBAppDataModel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CSBAppDataModel" class="dashAnchor"></a>
+    <a title="CSBAppDataModel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (77% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CSBAppDataModel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html">CSBAppDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">– StateFlags</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC0eF5ErrorO">– DataModelError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBCodableImage.html">CSBCodableImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBErrorPopup.html">CSBErrorPopup</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBFormValidator.html">CSBFormValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBFormValidator.html#/s:8CoAST_SB16CSBFormValidatorC11WarningModeO">– WarningMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBGPSHelper.html">CSBGPSHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBStorageHelper.html">CSBStorageHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CSBStorageHelper/Directory.html">– Directory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataEntry1TableViewController.html">DataEntry1TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataEntry2TableViewController.html">DataEntry2TableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeveloperViewController.html">DeveloperViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PictureSelectionViewController.html">PictureSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WelcomeViewController.html">WelcomeViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CSBLabelingValidatorDelegate.html">CSBLabelingValidatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CSBUnwindableViewController.html">CSBUnwindableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CSBDataPoint.html">CSBDataPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBLocationDataModel.html">CSBLocationDataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBMetadataModel.html">CSBMetadataModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CSBValidationRules.html">CSBValidationRules</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CSBAppDataModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">CSBAppDataModel</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>A representation of the survey data stored by this application, and the methods required to save, load, and send it</p>
+<div class="aside aside-author">
+    <p class="aside-title">Author</p>
+    Jake Trimble
+
+</div>
+<div class="aside aside-copyright">
+    <p class="aside-title">Copyright</p>
+    © 2019 Hello World. All rights reserved.
+
+</div>
+<div class="aside aside-date">
+    <p class="aside-title">Date</p>
+    Created 4/7/19
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC08metadataF0AA011CSBMetadataF0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/metadataModel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC08metadataF0AA011CSBMetadataF0Vvp">metadataModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The metadata associated with this survey</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">metadataModel</span><span class="p">:</span> <span class="kt"><a href="../Structs/CSBMetadataModel.html">CSBMetadataModel</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC10dataPointsSayAA12CSBDataPointVGvp"></a>
+                    <a name="//apple_ref/swift/Property/dataPoints" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC10dataPointsSayAA12CSBDataPointVGvp">dataPoints</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The primary data associated with this survey</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">dataPoints</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/CSBDataPoint.html">CSBDataPoint</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC5flagss4Int8Vvp"></a>
+                    <a name="//apple_ref/swift/Property/flags" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC5flagss4Int8Vvp">flags</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The state(s) of this data model (See <code><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></code> for options)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">flags</span><span class="p">:</span> <span class="kt">Int8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates an empty version of the data model</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC4saveyyF"></a>
+                    <a name="//apple_ref/swift/Method/save()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC4saveyyF">save()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Writes the data model to a JSON file called PersistentCopy.json in the Documents directory of this application</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">save</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC8retrieveACSgyFZ"></a>
+                    <a name="//apple_ref/swift/Method/retrieve()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC8retrieveACSgyFZ">retrieve()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieves a data model from the file PersistentCopy.json, if it exists in the Documents directory</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">retrieve</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CSBAppDataModel</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The data model, or nil if it doesn&rsquo;t exist</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC4mark2asyAC10StateFlagsO_tF"></a>
+                    <a name="//apple_ref/swift/Method/mark(as:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC4mark2asyAC10StateFlagsO_tF">mark(as:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Applies a state to this model</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">mark</span><span class="p">(</span><span class="k">as</span> <span class="nv">flag</span><span class="p">:</span> <span class="kt"><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>flag</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state to indicate is active (See <code><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC6unmark4flagyAC10StateFlagsO_tF"></a>
+                    <a name="//apple_ref/swift/Method/unmark(flag:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC6unmark4flagyAC10StateFlagsO_tF">unmark(flag:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes a state indicator from this model</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">unmark</span><span class="p">(</span><span class="nv">flag</span><span class="p">:</span> <span class="kt"><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>flag</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state to remove (See <code><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC03addE5PointyyAA07CSBDataH0VF"></a>
+                    <a name="//apple_ref/swift/Method/addDataPoint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC03addE5PointyyAA07CSBDataH0VF">addDataPoint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a new data point to the survey model</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addDataPoint</span><span class="p">(</span><span class="n">_</span> <span class="nv">dp</span><span class="p">:</span> <span class="kt"><a href="../Structs/CSBDataPoint.html">CSBDataPoint</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dp</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The data point to add</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC3has4flagSbAC10StateFlagsO_tF"></a>
+                    <a name="//apple_ref/swift/Method/has(flag:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC3has4flagSbAC10StateFlagsO_tF">has(flag:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Determines if the model has a given state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">has</span><span class="p">(</span><span class="nv">flag</span><span class="p">:</span> <span class="kt"><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>flag</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state to query (See <code><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a></code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>true if the state is active, false otherwise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC6images3forSo7UIImageCSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/images(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC6images3forSo7UIImageCSgSS_tF">images(for:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get method for the private <code>images</code> property</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Use <code><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC7makeKey4fromS2S_tFZ">CSBAppDataModel.makeKey(from:)</a></code> to generate a key from a title
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">images</span><span class="p">(</span><span class="k">for</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The data key of the image</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The image for the given key if it exists, nil otherwise</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC6images3for4getsySS_So7UIImageCtF"></a>
+                    <a name="//apple_ref/swift/Method/images(for:gets:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC6images3for4getsySS_So7UIImageCtF">images(for:gets:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The set method for the private <code>images</code> property</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Use <code><a href="../Classes/CSBAppDataModel.html#/s:8CoAST_SB15CSBAppDataModelC7makeKey4fromS2S_tFZ">CSBAppDataModel.makeKey(from:)</a></code> to generate a key from a title
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">images</span><span class="p">(</span><span class="k">for</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">gets</span> <span class="nv">img</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The data key to use for the image</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>img</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The image to save to the model</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC7makeKey4fromS2S_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/makeKey(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC7makeKey4fromS2S_tFZ">makeKey(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a data key from a title</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">makeKey</span><span class="p">(</span><span class="n">from</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>title</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The original title of the object, with human-readable spaces and capitalization</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A lowercased key with underscores replacing spaces</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO"></a>
+                    <a name="//apple_ref/swift/Enum/StateFlags" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC10StateFlagsO">StateFlags</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The states that this model may be in</p>
+
+<ul>
+<li>hasMetadata: The metadata container has been filled</li>
+<li>hasEntries: Some data points have been added to the model</li>
+<li>wasReloaded: The model was loaded from a file</li>
+<li>verified: The survey data has been verified for sending</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">StateFlags</span> <span class="p">:</span> <span class="kt">Int8</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB15CSBAppDataModelC0eF5ErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/DataModelError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB15CSBAppDataModelC0eF5ErrorO">DataModelError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Custom errors associated with the data model</p>
+
+<ul>
+<li>noFileFound: No file was found when loading an image from a key</li>
+<li>invalidImageData: An image was loaded with corrupted data</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">DataModelError</span> <span class="p">:</span> <span class="kt">Error</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-04-25)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
