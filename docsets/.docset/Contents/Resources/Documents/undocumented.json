@@ -92,87 +92,52 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBBeachDataModel.swift",
-      "line": 20,
-      "symbol": "CSBLocationDataModel",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBErrorPopup.swift",
-      "line": 11,
-      "symbol": "CSBErrorPopup",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "line": 30,
+      "symbol": "CSBErrorPopup.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 12,
-      "symbol": "CSBFormValidator.forms",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "line": 28,
+      "symbol": "CSBFormValidator.WarningMode.noWarnings",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 14,
-      "symbol": "CSBFormValidator.rules",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "line": 29,
+      "symbol": "CSBFormValidator.WarningMode.popup",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 16,
-      "symbol": "CSBFormValidator.delegate",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "line": 30,
+      "symbol": "CSBFormValidator.WarningMode.label",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 18,
-      "symbol": "CSBFormValidator.WarningMode",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 24,
-      "symbol": "CSBFormValidator.warningMode",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 52,
+      "line": 62,
       "symbol": "CSBFormValidator.validate(silence:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 118,
+      "line": 128,
       "symbol": "CSBFormValidator.validateField(_:silence:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 178,
+      "line": 189,
       "symbol": "CSBValidatorDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 182,
-      "symbol": "CSBLabelingValidatorDelegate",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
-      "line": 189,
-      "symbol": "CSBValidationRules",
-      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
@@ -187,20 +152,6 @@
       "line": 22,
       "symbol": "CSBGPSHelper.getPermission()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBGPSHelper.swift",
-      "line": 39,
-      "symbol": "CSBGPSHelper.locationManager(_:didUpdateLocations:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBStorageHelper.swift",
-      "line": 10,
-      "symbol": "CSBStorageHelper",
-      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
@@ -338,35 +289,28 @@
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
-      "line": 19,
+      "line": 23,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
-      "line": 33,
+      "line": 37,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
-      "line": 43,
-      "symbol": "String.split(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
-      "line": 47,
+      "line": 52,
       "symbol": "String.§(_:_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
-      "line": 77,
+      "line": 82,
       "symbol": "String.isCapitalized",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
