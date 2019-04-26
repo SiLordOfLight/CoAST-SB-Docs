@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CSBCodableImage Class Reference</title>
+    <title>CSBBeachLocationModel Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/CSBCodableImage" class="dashAnchor"></a>
-    <a title="CSBCodableImage Class Reference"></a>
+    <a name="//apple_ref/swift/Struct/CSBBeachLocationModel" class="dashAnchor"></a>
+    <a title="CSBBeachLocationModel Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (75% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        CSBCodableImage Class Reference
+        CSBBeachLocationModel Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -124,17 +124,17 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>CSBCodableImage</h1>
+            <h1>CSBBeachLocationModel</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">CSBCodableImage</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">CSBBeachLocationModel</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
-            <p>A package for a UIImage that allows it to be saved and loaded using the Codable protocol</p>
+            <p>A model representing the location of a beach</p>
 <div class="aside aside-author">
     <p class="aside-title">Author</p>
-    Jake Trimble
+    Caleb Cassin
 
 </div>
 <div class="aside aside-copyright">
@@ -144,7 +144,12 @@
 </div>
 <div class="aside aside-date">
     <p class="aside-title">Date</p>
-    Created 4/22/19
+    Created 4/13/19
+
+</div>
+<div class="aside aside-todo">
+    <p class="aside-title">Todo</p>
+    Make conform to Codable
 
 </div>
 
@@ -155,36 +160,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8CoAST_SB15CSBCodableImageC5imageSo7UIImageCvp"></a>
-                    <a name="//apple_ref/swift/Property/image" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8CoAST_SB15CSBCodableImageC5imageSo7UIImageCvp">image</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The image itself</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:8CoAST_SB15CSBCodableImageC4nameSSvp"></a>
+                    <a name="/s:8CoAST_SB21CSBBeachLocationModelV4nameSSvp"></a>
                     <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8CoAST_SB15CSBCodableImageC4nameSSvp">name</a>
+                    <a class="token" href="#/s:8CoAST_SB21CSBBeachLocationModelV4nameSSvp">name</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -192,7 +170,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The image&rsquo;s data key</p>
+                        <p>The name of the beach</p>
 
                       </div>
                       <div class="declaration">
@@ -209,9 +187,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:Se4fromxs7Decoder_p_tKcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(from:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Se4fromxs7Decoder_p_tKcfc">init(from:)</a>
+                    <a name="/s:8CoAST_SB21CSBBeachLocationModelV8latitudeSdvp"></a>
+                    <a name="//apple_ref/swift/Property/latitude" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB21CSBBeachLocationModelV8latitudeSdvp">latitude</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -219,13 +197,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
+                        <p>The beach&rsquo;s coordinates</p>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n">from</span> <span class="nv">decoder</span><span class="p">:</span> <span class="kt">Decoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">latitude</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
 
                         </div>
                       </div>
@@ -235,9 +214,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:SE6encode2toys7Encoder_p_tKF"></a>
-                    <a name="//apple_ref/swift/Method/encode(to:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:)</a>
+                    <a name="/s:8CoAST_SB21CSBBeachLocationModelV16dateLastSurveyed10Foundation4DateVvp"></a>
+                    <a name="//apple_ref/swift/Property/dateLastSurveyed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB21CSBBeachLocationModelV16dateLastSurveyed10Foundation4DateVvp">dateLastSurveyed</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -245,13 +224,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
+                        <p>The date of the last survey of this beach</p>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">to</span> <span class="nv">encoder</span><span class="p">:</span> <span class="kt">Encoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">dateLastSurveyed</span><span class="p">:</span> <span class="kt">Date</span></code></pre>
 
                         </div>
                       </div>

@@ -1,320 +1,348 @@
 {
   "warnings": [
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/AppDelegate.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/AppDelegate.swift",
       "line": 18,
       "symbol": "AppDelegate.window",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/AppDelegate.swift",
-      "line": 62,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/AppDelegate.swift",
+      "line": 64,
       "symbol": "AppDelegate.applicationWillResignActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/AppDelegate.swift",
-      "line": 67,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/AppDelegate.swift",
+      "line": 69,
       "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/AppDelegate.swift",
-      "line": 72,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/AppDelegate.swift",
+      "line": 74,
       "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/AppDelegate.swift",
-      "line": 76,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/AppDelegate.swift",
+      "line": 78,
       "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/AppDelegate.swift",
-      "line": 80,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/AppDelegate.swift",
+      "line": 82,
       "symbol": "AppDelegate.applicationWillTerminate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
       "line": 125,
       "symbol": "CSBAppDataModel.StateFlags.hasMetadata",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
       "line": 126,
       "symbol": "CSBAppDataModel.StateFlags.hasEntries",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
       "line": 127,
       "symbol": "CSBAppDataModel.StateFlags.wasReloaded",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
       "line": 128,
       "symbol": "CSBAppDataModel.StateFlags.verified",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
       "line": 136,
       "symbol": "CSBAppDataModel.DataModelError.noFileFound",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
       "line": 137,
       "symbol": "CSBAppDataModel.DataModelError.invalidImageData",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
-      "line": 194,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBAppDataModel.swift",
+      "line": 196,
       "symbol": "CSBCodableImage.init(_:called:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBErrorPopup.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBBeachDataModel.swift",
+      "line": 22,
+      "symbol": "CSBBeachLocationModel.longitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBBeachDataModel.swift",
+      "line": 31,
+      "symbol": "CSBBeachGroupModel.beaches",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBErrorPopup.swift",
       "line": 30,
       "symbol": "CSBErrorPopup.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
       "line": 28,
       "symbol": "CSBFormValidator.WarningMode.noWarnings",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
       "line": 29,
       "symbol": "CSBFormValidator.WarningMode.popup",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
       "line": 30,
       "symbol": "CSBFormValidator.WarningMode.label",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
       "line": 62,
       "symbol": "CSBFormValidator.validate(silence:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
       "line": 128,
       "symbol": "CSBFormValidator.validateField(_:silence:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBFormValidator.swift",
       "line": 189,
       "symbol": "CSBValidatorDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBGPSHelper.swift",
-      "line": 20,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBGPSHelper.swift",
+      "line": 21,
       "symbol": "CSBGPSHelper.locationManager",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/CSBGPSHelper.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBGPSHelper.swift",
       "line": 22,
+      "symbol": "CSBGPSHelper.closestBeach",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBGPSHelper.swift",
+      "line": 24,
       "symbol": "CSBGPSHelper.getPermission()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 129,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 82,
+      "symbol": "DataEntry1TableViewController.gpsHelper",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 135,
       "symbol": "DataEntry1TableViewController.configureValidator()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 141,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 147,
       "symbol": "DataEntry1TableViewController.autofillData()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 145,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 151,
       "symbol": "DataEntry1TableViewController.setDataFromModel()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 198,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 204,
       "symbol": "DataEntry1TableViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 202,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 208,
       "symbol": "DataEntry1TableViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 210,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 216,
       "symbol": "DataEntry1TableViewController.numberOfComponents(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 213,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 219,
       "symbol": "DataEntry1TableViewController.pickerView(_:numberOfRowsInComponent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 218,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
+      "line": 224,
       "symbol": "DataEntry1TableViewController.pickerView(_:titleForRow:forComponent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 40,
       "symbol": "DataEntry2TableViewController.finishButton",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 111,
       "symbol": "DataEntry2TableViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 115,
       "symbol": "DataEntry2TableViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 120,
       "symbol": "DataEntry2TableViewController.numberOfComponents(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 124,
       "symbol": "DataEntry2TableViewController.pickerView(_:numberOfRowsInComponent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 128,
       "symbol": "DataEntry2TableViewController.pickerView(_:didSelectRow:inComponent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 132,
       "symbol": "DataEntry2TableViewController.textFieldShouldReturn(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
       "line": 146,
       "symbol": "DataEntry2TableViewController.pickerInputShouldExit(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DeveloperViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DeveloperViewController.swift",
       "line": 21,
       "symbol": "DeveloperViewController.backButton",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/DeveloperViewController.swift",
-      "line": 40,
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DeveloperViewController.swift",
+      "line": 39,
       "symbol": "DeveloperViewController.backAction(sender:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/PictureSelectionViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/PictureSelectionViewController.swift",
       "line": 56,
       "symbol": "PictureSelectionViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/StringExtension.swift",
       "line": 23,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/StringExtension.swift",
       "line": 37,
       "symbol": "String.subscript(_:)",
       "symbol_kind": "source.lang.swift.decl.function.subscript",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/StringExtension.swift",
       "line": 52,
       "symbol": "String.§(_:_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/jake/Documents/Programming/coast-sb-ios/CoAST SB/StringExtension.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/StringExtension.swift",
       "line": 82,
       "symbol": "String.isCapitalized",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/jake/Documents/Programming/coast-sb-ios"
+  "source_directory": "/Users/developer/Documents/coast-sb-ios"
 }
