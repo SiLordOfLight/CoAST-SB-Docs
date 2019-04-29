@@ -106,6 +106,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBConditionallyEditableCell.swift",
+      "line": 11,
+      "symbol": "CSBConditionallyEditableCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBErrorPopup.swift",
       "line": 30,
       "symbol": "CSBErrorPopup.viewDidLoad()",
@@ -176,122 +183,136 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 82,
-      "symbol": "DataEntry1TableViewController.gpsHelper",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 17,
+      "symbol": "CSBImageThumbnail.parent",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 135,
-      "symbol": "DataEntry1TableViewController.configureValidator()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 147,
-      "symbol": "DataEntry1TableViewController.autofillData()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 151,
-      "symbol": "DataEntry1TableViewController.setDataFromModel()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 204,
-      "symbol": "DataEntry1TableViewController.numberOfSections(in:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 208,
-      "symbol": "DataEntry1TableViewController.tableView(_:numberOfRowsInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 216,
-      "symbol": "DataEntry1TableViewController.numberOfComponents(in:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 219,
-      "symbol": "DataEntry1TableViewController.pickerView(_:numberOfRowsInComponent:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry1TableViewController.swift",
-      "line": 224,
-      "symbol": "DataEntry1TableViewController.pickerView(_:titleForRow:forComponent:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
-      "line": 40,
-      "symbol": "DataEntry2TableViewController.finishButton",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 19,
+      "symbol": "CSBImageThumbnail.stack",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
-      "line": 111,
-      "symbol": "DataEntry2TableViewController.numberOfSections(in:)",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 20,
+      "symbol": "CSBImageThumbnail.stackIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 21,
+      "symbol": "CSBImageThumbnail.imageTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 23,
+      "symbol": "CSBImageThumbnail.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 30,
+      "symbol": "CSBImageThumbnail.init(image:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 37,
+      "symbol": "CSBImageThumbnail.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/CSBImageThumbnail.swift",
+      "line": 44,
+      "symbol": "CSBImageThumbnail.didTapView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
       "line": 115,
-      "symbol": "DataEntry2TableViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol": "DataPointEntryViewController.refreshFields()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
-      "line": 120,
-      "symbol": "DataEntry2TableViewController.numberOfComponents(in:)",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 121,
+      "symbol": "DataPointEntryViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
       "line": 124,
-      "symbol": "DataEntry2TableViewController.pickerView(_:numberOfRowsInComponent:)",
+      "symbol": "DataPointEntryViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
       "line": 128,
-      "symbol": "DataEntry2TableViewController.pickerView(_:didSelectRow:inComponent:)",
+      "symbol": "DataPointEntryViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
-      "line": 132,
-      "symbol": "DataEntry2TableViewController.textFieldShouldReturn(_:)",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 145,
+      "symbol": "DataPointEntryViewController.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataEntry2TableViewController.swift",
-      "line": 146,
-      "symbol": "DataEntry2TableViewController.pickerInputShouldExit(_:)",
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 169,
+      "symbol": "DataPointEntryViewController.numberOfComponents(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 173,
+      "symbol": "DataPointEntryViewController.pickerView(_:numberOfRowsInComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 177,
+      "symbol": "DataPointEntryViewController.pickerView(_:didSelectRow:inComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 181,
+      "symbol": "DataPointEntryViewController.textFieldShouldReturn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataPointEntryViewController.swift",
+      "line": 195,
+      "symbol": "DataPointEntryViewController.pickerInputShouldExit(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 11,
+      "symbol": "DataVerificationViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
@@ -305,6 +326,55 @@
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DeveloperViewController.swift",
       "line": 39,
       "symbol": "DeveloperViewController.backAction(sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 87,
+      "symbol": "MetadataEntryViewController.gpsHelper",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 143,
+      "symbol": "MetadataEntryViewController.configureValidator()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 155,
+      "symbol": "MetadataEntryViewController.autofillData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 159,
+      "symbol": "MetadataEntryViewController.setDataFromModel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 213,
+      "symbol": "MetadataEntryViewController.numberOfComponents(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 216,
+      "symbol": "MetadataEntryViewController.pickerView(_:numberOfRowsInComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
+      "line": 221,
+      "symbol": "MetadataEntryViewController.pickerView(_:titleForRow:forComponent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
