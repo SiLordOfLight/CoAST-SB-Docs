@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CSBCodableImage Class Reference</title>
+    <title>PhotoEntryViewController Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/CSBCodableImage" class="dashAnchor"></a>
-    <a title="CSBCodableImage Class Reference"></a>
+    <a name="//apple_ref/swift/Class/PhotoEntryViewController" class="dashAnchor"></a>
+    <a title="PhotoEntryViewController Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (71% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        CSBCodableImage Class Reference
+        PhotoEntryViewController Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -133,14 +133,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>CSBCodableImage</h1>
+            <h1>PhotoEntryViewController</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">CSBCodableImage</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">PhotoEntryViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt"><a href="../Protocols/CSBUnwindableViewController.html">CSBUnwindableViewController</a></span></code></pre>
 
                 </div>
               </div>
-            <p>A package for a UIImage that allows it to be saved and loaded using the Codable protocol</p>
+            <p>The view that allows for entry of the three main site photos</p>
 <div class="aside aside-author">
     <p class="aside-title">Author</p>
     Jake Trimble
@@ -153,7 +153,18 @@
 </div>
 <div class="aside aside-date">
     <p class="aside-title">Date</p>
-    Created 4/22/19
+    Created 4/29/19
+
+</div>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <ul>
+<li>This page is the fourth page in the <q>Survey</q> branch of the navigation tree</li>
+<li>This page provides backward navigation to the <q>Data Entry Page</q></li>
+<li>This page is accessed by pressing the <q>Next</q> button on the <q>Data Entry Page</q></li>
+<li>This page presents popups to select photos</li>
+<li>This page provides forward navigation to the Data Verification Page</li>
+</ul>
 
 </div>
 
@@ -164,9 +175,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8CoAST_SB15CSBCodableImageC5imageSo7UIImageCvp"></a>
-                    <a name="//apple_ref/swift/Property/image" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8CoAST_SB15CSBCodableImageC5imageSo7UIImageCvp">image</a>
+                    <a name="/c:@M@CoAST_SB@objc(cs)PhotoEntryViewController(py)upBeachThumbnail"></a>
+                    <a name="//apple_ref/swift/Property/upBeachThumbnail" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)PhotoEntryViewController(py)upBeachThumbnail">upBeachThumbnail</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -174,14 +185,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The image itself</p>
+                        <p>Thumbnail for the Up Beach picture</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">upBeachThumbnail</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/c:@M@CoAST_SB@objc(cs)CSBImageThumbnail">CSBImageThumbnail</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -191,9 +203,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8CoAST_SB15CSBCodableImageC4nameSSvp"></a>
-                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8CoAST_SB15CSBCodableImageC4nameSSvp">name</a>
+                    <a name="/c:@M@CoAST_SB@objc(cs)PhotoEntryViewController(py)downBeachThumbnail"></a>
+                    <a name="//apple_ref/swift/Property/downBeachThumbnail" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)PhotoEntryViewController(py)downBeachThumbnail">downBeachThumbnail</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -201,40 +213,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The image&rsquo;s data key</p>
+                        <p>Thumbnail for the Down Beach picture</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Se4fromxs7Decoder_p_tKcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(from:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Se4fromxs7Decoder_p_tKcfc">init(from:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="nf">init</span><span class="p">(</span><span class="n">from</span> <span class="nv">decoder</span><span class="p">:</span> <span class="kt">Decoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">downBeachThumbnail</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/c:@M@CoAST_SB@objc(cs)CSBImageThumbnail">CSBImageThumbnail</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -244,9 +231,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:SE6encode2toys7Encoder_p_tKF"></a>
-                    <a name="//apple_ref/swift/Method/encode(to:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SE6encode2toys7Encoder_p_tKF">encode(to:)</a>
+                    <a name="/c:@M@CoAST_SB@objc(cs)PhotoEntryViewController(py)horizonThumbnail"></a>
+                    <a name="//apple_ref/swift/Property/horizonThumbnail" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@CoAST_SB@objc(cs)PhotoEntryViewController(py)horizonThumbnail">horizonThumbnail</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -254,13 +241,42 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
+                        <p>Thumbnail for the Horizon picture</p>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">to</span> <span class="nv">encoder</span><span class="p">:</span> <span class="kt">Encoder</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">horizonThumbnail</span><span class="p">:</span> <span class="kt"><a href="../Classes.html#/c:@M@CoAST_SB@objc(cs)CSBImageThumbnail">CSBImageThumbnail</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8CoAST_SB24PhotoEntryViewControllerC6unwind4fromySo06UIViewG0C_tF"></a>
+                    <a name="//apple_ref/swift/Method/unwind(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8CoAST_SB24PhotoEntryViewControllerC6unwind4fromySo06UIViewG0C_tF">unwind(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Captures images from photo selectors</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">unwind</span><span class="p">(</span><span class="n">from</span> <span class="nv">sourceVC</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>

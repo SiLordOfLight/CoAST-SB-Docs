@@ -310,9 +310,121 @@
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
-      "line": 11,
-      "symbol": "DataVerificationViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "line": 62,
+      "symbol": "DataVerificationViewController.sitePicker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 63,
+      "symbol": "DataVerificationViewController.visibilityPicker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 64,
+      "symbol": "DataVerificationViewController.datePicker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 65,
+      "symbol": "DataVerificationViewController.startTimePicker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 66,
+      "symbol": "DataVerificationViewController.endTimePicker",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 80,
+      "symbol": "DataVerificationViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 144,
+      "symbol": "DataVerificationViewController.configureValidator()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 157,
+      "symbol": "DataVerificationViewController.autoloadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 188,
+      "symbol": "DataVerificationViewController.startTimeChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 196,
+      "symbol": "DataVerificationViewController.endTimeChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 204,
+      "symbol": "DataVerificationViewController.dateChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 213,
+      "symbol": "DataVerificationViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 217,
+      "symbol": "DataVerificationViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 221,
+      "symbol": "DataVerificationViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 238,
+      "symbol": "DataVerificationViewController.numberOfComponents(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 242,
+      "symbol": "DataVerificationViewController.pickerView(_:numberOfRowsInComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/DataVerificationViewController.swift",
+      "line": 253,
+      "symbol": "DataVerificationViewController.textFieldShouldReturn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -338,43 +450,57 @@
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
-      "line": 143,
+      "line": 147,
       "symbol": "MetadataEntryViewController.configureValidator()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
-      "line": 155,
+      "line": 159,
       "symbol": "MetadataEntryViewController.autofillData()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
-      "line": 159,
+      "line": 163,
       "symbol": "MetadataEntryViewController.setDataFromModel()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
-      "line": 213,
+      "line": 217,
       "symbol": "MetadataEntryViewController.numberOfComponents(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
-      "line": 216,
+      "line": 220,
       "symbol": "MetadataEntryViewController.pickerView(_:numberOfRowsInComponent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/MetadataEntryViewController.swift",
-      "line": 221,
+      "line": 225,
       "symbol": "MetadataEntryViewController.pickerView(_:titleForRow:forComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/PhotoEntryViewController.swift",
+      "line": 32,
+      "symbol": "PhotoEntryViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/developer/Documents/coast-sb-ios/CoAST SB/PhotoEntryViewController.swift",
+      "line": 65,
+      "symbol": "PhotoEntryViewController.didTapNextButton(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
